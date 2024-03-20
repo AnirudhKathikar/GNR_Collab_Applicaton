@@ -1,0 +1,98 @@
+#nav-bar {
+  background-color: #f8f9fa; /* Or your desired color */
+  padding: 15px 0;
+}
+
+#nav-bar ul {
+  list-style: none;
+  padding: 50;
+  margin: 10;
+}
+
+#nav-bar li {
+  display: inline-block; /* Make items appear horizontally */
+  margin-right: 20px;
+}
+
+#nav-bar a {
+  color: #333; /* Or your desired link color */
+  text-decoration: none;
+}
+
+/* Overall Navbar */
+#nav-bar {
+  background-color: #fff; /* White Background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+  padding: 10px 20px;
+}
+
+/* Logo */
+.navbar-brand {
+  font-family: 'Arial', sans-serif;  /* Example font */
+  font-weight: bold;
+  color: #f1592a; /* SkillShare brand orange */
+}
+
+/* Search Bar */
+.form-inline {
+  width: 40%; /* Adjust search bar width */
+}
+
+.form-control {
+  border-radius: 20px;  /* Rounded search bar */
+}
+
+/* User Menu */
+.nav-link {
+  color: #333;
+}
+
+.dropdown-menu {
+ right: 0;
+ left: auto; /* Align dropdown to the right*/
+}
+
+/* Responsive Adjustments (Optional) */
+@media (max-width: 768px) {
+  .form-inline {
+    width: 60%;
+  }
+}
+.input-group {
+  width: 40%; /* Adjust width as needed */
+}
+
+.input-group .form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; /* Remove right rounded corners */
+}
+
+.input-group .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; /* Remove left rounded corners*/
+}
+
+/* Overall container and layout */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+  gap: 20px;
+  padding: 20px; /* Space around the grid */
+}
+
+/* Styling for individual boxes */
+.box {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  border-radius: 5px; /* Slightly round the corners */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling for inner boxes */
+.inner-box {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;  /* Divider between inner boxes */
+}
+
